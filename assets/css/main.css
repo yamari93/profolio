@@ -1,4 +1,9 @@
 /* wire frame: TODO: delete later */
+about {
+    text-align: column;
+}
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -59,6 +64,7 @@ main {
     flex: 1;
     padding: 3rem 0;
     justify-content: center;
+    margin: 1;
 
 
 }
@@ -73,6 +79,12 @@ img {
     max-height: 15rem;
 }
 
+link {
+    text-shadow: grey;
+}
+
+
+
 
 /* classes */
 .centered {
@@ -81,8 +93,10 @@ img {
     text-align: center;
 }
 
-.img {
-    border-radius: 50%;
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -101,4 +115,6 @@ img {
 
 .pt {
     padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
