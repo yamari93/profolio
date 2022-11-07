@@ -1,35 +1,34 @@
 /* wire frame: TODO: delete later */
 about {
-    text-align: column;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
 }
-
 
 body {
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100%;
-
+    text-align: center;
+    text-size-adjust: 30%;
 }
-
 
 footer {
     padding: 1.5rem 0;
     background-color: blue;
     align-content: center;
-
-
 }
 
 header {
-    image-orientation: url('./../images/profile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: lightblue;
     text-align: center;
+    padding-inline: 1rem;
 }
 
 h2 {
@@ -57,6 +56,14 @@ h2:hover {
     }
 }
 
+img {
+    border-radius: 20%;
+    max-width: 12rem;
+    max-height: 12rem;
+    display: block;
+    justify-content: center;
+
+}
 
 main {
 
@@ -64,25 +71,12 @@ main {
     flex: 1;
     padding: 3rem 0;
     justify-content: center;
-    margin: 1;
-
 
 }
 
 nav {
     text-decoration: none;
 }
-
-img {
-    border-radius: 20%;
-    max-width: 15rem;
-    max-height: 15rem;
-}
-
-link {
-    text-shadow: grey;
-}
-
 
 
 
@@ -93,19 +87,13 @@ link {
     text-align: center;
 }
 
-.icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
 .wrapper {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
     margin: 3rem auto;
     max-width: 1200px;
+    text-align: center;
 
 }
 
@@ -117,4 +105,5 @@ link {
     padding-top: 1.5rem;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
